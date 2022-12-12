@@ -4,7 +4,7 @@ import Cookies from 'js-cookie';
 
 export function Test() {
     const [data, setData] = useState('');
-    let u = Cookies.attributes();
+    let u;
 
     function get() {
         fetch('data')
